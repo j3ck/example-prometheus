@@ -8,7 +8,7 @@ Recent versions of Docker and Docker Compose installed.
 
 ## Usage
 
-- Execute `docker-compose up` to start.
+- Execute `docker-compose up` to start. Set `RAILS_PORT` to change the external Rails port (5000 by default).
 - Go to rails application at http://localhost:5000
 - Hit the button and refresh page few times
 - Go to Grafana Web UI at [localhost](http://localhost:3000/d/000000001/yabeda-metrics-for-rails-sidekiq-and-puma?refresh=5s) (user: `admin`/`admin`)
